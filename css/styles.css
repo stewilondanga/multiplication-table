@@ -50,12 +50,12 @@ input {
   transition: .3s;
 }
 
-/*input:hover {
+input:hover {
   background-color: #0070FF;
   transition: .3s;
 }
 
-input:focus {
+/*input:focus {
   background-color: lime;
   border: 5px solid blue;
   color: blue;

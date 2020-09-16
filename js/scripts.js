@@ -1,10 +1,10 @@
 var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
 var yxy = 12;
@@ -26,9 +26,11 @@ window.onload = function() {
   document.querySelector('#yxy').value = yxy;
   redo(yxy);
 }
+
 function appendToTopRow(str) {
   document.querySelector('#top-row').innerHTML += '    ' + str + "\n";
 }
+
 function appendRow(tds) {
   var content = '';
   for (var y = 0; y < tds.length; y++) {

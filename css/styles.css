@@ -17,11 +17,11 @@
   overflow-x: auto;
 }
 
-/*#table {
+#table {
   border-collapse: collapse;
 }
 
-#table th {
+/*#table th {
   background-color: lime;
   padding: 15px;
   border: 3px solid blue;

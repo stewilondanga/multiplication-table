@@ -72,7 +72,7 @@ input::-webkit-outer-spin-button {
   margin: 20px auto;
 }
 
-/*#contact h1 {
+#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
@@ -83,7 +83,7 @@ input::-webkit-outer-spin-button {
   margin: 0 auto;
 }
 
-.cal {
+/*.cal {
   display: inline-block;
   background: #ffe;
   color: #555;

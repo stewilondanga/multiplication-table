@@ -55,14 +55,14 @@ input:hover {
   transition: .3s;
 }
 
-/*input:focus {
+input:focus {
   background-color: lime;
   border: 5px solid blue;
   color: blue;
   transition: .3s;
 }
 
-input::-webkit-inner-spin-button,
+/*input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
   color: white;
 }

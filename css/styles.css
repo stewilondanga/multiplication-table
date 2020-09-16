@@ -62,12 +62,12 @@ input:focus {
   transition: .3s;
 }
 
-/*input::-webkit-inner-spin-button,
+input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
   color: white;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
